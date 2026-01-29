@@ -9,4 +9,5 @@ import com.crud.test.domain.Client;
 
 public interface ClientRepository extends JpaRepository<Client, Long>{
  Optional<Client> findByIdentificacion(String identificacion);
+
 }
